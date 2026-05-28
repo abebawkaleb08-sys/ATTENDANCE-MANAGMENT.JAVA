@@ -17,6 +17,16 @@ public class Main {
         // 2. Dynamic Input for Attendance Days
         System.out.print("Enter number of days to mark attendance for " + name + ": ");
         int daysToMark = input.nextInt();
+        System.out.println();
+
+        // 3. Display Information
+        t1.displayInfo();
+        System.out.println();
+        manager.showAllStudents();
+
+        input.close();
+    } // Closes main method
+} // Closes public class Main
 
         // Create Teacher Object
         Teacher t1 = new Teacher("Mr John", 201);
@@ -28,14 +38,4 @@ public class Main {
         // Mark Attendance using the user-inputted days variable
         manager.markAttendance(s1, daysToMark);
 
-        System.out.println();
-
-        // 3. Display Information
-        System.out.println(" System Records ");
-        t1.displayInfo();
-        System.out.println();
-        manager.showAllStudents();
-
-        input.close();
-    } // Closes main method
-} // Closes public class Main
+       
