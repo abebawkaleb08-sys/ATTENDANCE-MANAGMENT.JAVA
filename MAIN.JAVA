@@ -26,7 +26,7 @@ public class Main {
         manager.addStudent(s1);
 
         // Mark Attendance
-        manager.markAttendance(s1, 3);
+        manager.markAttendance(s1);
 
         System.out.println();
 
