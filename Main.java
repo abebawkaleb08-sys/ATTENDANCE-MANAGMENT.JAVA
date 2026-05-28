@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
 
         // 1. User Input for Student Configuration
@@ -32,12 +34,11 @@ public class Main {
 
         // 3. Display Clear Output Stream
         t1.displayInfo();
+
         System.out.println();
+
         manager.showAllStudents();
 
         input.close();
-    } // This brace closes the main method
-} // This brace closes the public class Main
-
-
-
+    }
+}
