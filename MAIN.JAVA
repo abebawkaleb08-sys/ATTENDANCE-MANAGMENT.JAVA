@@ -37,4 +37,4 @@ public class Main {
 
         input.close();
     } // Closes main method
-} // Closes public class Main
++} // Closes public class Main
