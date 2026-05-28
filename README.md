@@ -39,7 +39,7 @@ ID: 201
 
 Name: Kaleb
 ID: 1200
-Attendance Count: 3
+Attendance Count: 1
 
 
 🚀 Future Improvements
