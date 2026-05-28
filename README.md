@@ -26,21 +26,6 @@ Mark attendance for multiple days
 Display student and teacher information
 Interactive user input via console.
 
-⌨️ Example Input
-
-Enter Student Name: Kaleb
-Enter Student ID: 1200
-
-📤 Example Output
-
-Teacher Information
-Name: Mr John
-ID: 201
-
-Name: Kaleb
-ID: 1200
-Attendance Count: 1
-
 
 🚀 Future Improvements
 Allow multiple student inputs
