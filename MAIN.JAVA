@@ -30,11 +30,11 @@ public class Main {
 
         System.out.println();
 
-        // 3. Display Information (Divider Removed)
+        // 3. Display Information
         t1.displayInfo();
         System.out.println();
         manager.showAllStudents();
 
         input.close();
-    } 
-} 
+    } // This brace closes the main method
+} // This brace closes the public class Main
