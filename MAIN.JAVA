@@ -14,7 +14,7 @@ public class Main {
         // Create Student Object
         Student s1 = new Student(name, id);
 
-        // 2. Dynamic Input for Attendance Days (Fixing the hardcoded '3')
+        // 2. Dynamic Input for Attendance Days
         System.out.print("Enter number of days to mark attendance for " + name + ": ");
         int daysToMark = input.nextInt();
 
@@ -31,11 +31,11 @@ public class Main {
         System.out.println();
 
         // 3. Display Information
-        System.out.println(" System Records ");
+        System.out.println("--- System Records ---");
         t1.displayInfo();
         System.out.println();
         manager.showAllStudents();
 
         input.close();
-    }
-}
+    } // Closes main method
+} // Closes public class Main
