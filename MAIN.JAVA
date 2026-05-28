@@ -36,5 +36,5 @@ public class Main {
         manager.showAllStudents();
 
         input.close();
-    } // Closes main method
-+} // Closes public class Main
+    } 
+} 
