@@ -1,29 +1,23 @@
-class Student extends Person {
-
+public class Student extends Person {
     private int attendanceCount;
 
     public Student(String name, int id) {
-
         super(name, id);
-
-        attendanceCount = 0;
+        this.attendanceCount = 0;
     }
 
     public void markAttendance() {
-
-        attendanceCount++;
+        this.attendanceCount++;
     }
 
     public int getAttendanceCount() {
-
-        return attendanceCount;
+        return this.attendanceCount;
     }
 
     @Override
     public void displayInfo() {
-
-        super.displayInfo();
-
+        super.displayInfo(); // Correctly prints Name and ID
         System.out.println("Attendance Count: " + attendanceCount);
     }
 }
+
