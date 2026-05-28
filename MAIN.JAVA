@@ -31,7 +31,7 @@ public class Main {
         System.out.println();
 
         // 3. Display Information
-        System.out.println("--- System Records ---");
+        System.out.println(" System Records ");
         t1.displayInfo();
         System.out.println();
         manager.showAllStudents();
